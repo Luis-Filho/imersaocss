@@ -1,3 +1,11 @@
+/*
+font-family: 'Balsamiq Sans', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Press Start 2P', cursive;
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -7,9 +15,10 @@
 body {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/fe/Leon_%28cor%29.png") ;
   background-size: auto 100vh;
-  font-family: Arial;
+  font-family: 'Open Sans', sans-serif;
   height: 100vh;
   font-size: 12px;
+  
  
 }
 
@@ -25,6 +34,14 @@ body {
 @media (min-width: 600px) {
   body {
     font-size: 18px;
+  }
+}
+
+/* breakpoint */
+@media (min-width: 1200px) {
+  body {
+    font-size: 18px;
+    
   }
 }
 
@@ -79,8 +96,15 @@ a:hover {
 
 .site-title {
   font-size: 4em;  
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.portfolio h2 {
+  font-family: 'Press Start 2P', cursive;
 }
 
 .site-subtitle {
   font-style: italic;
+  font-family: 'Press Start 2P', cursive;
+  line-height: 1.8em;
 }
